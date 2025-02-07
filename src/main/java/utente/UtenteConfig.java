@@ -16,7 +16,7 @@ public class UtenteConfig {
     @Bean
     public Utente getUtenteB() {
         Utente utenteB = new Utente();
-        utenteB.setUsername("utenteB");
+        utenteB.setUsername("ManiacoDelControllo");
         utenteB.setNomeCompleto("Giuliano Torrisi");
         utenteB.setEmail("utenteB@utenteB.it");
         return utenteB;
@@ -24,9 +24,9 @@ public class UtenteConfig {
     @Bean
     public Utente getUtenteC() {
         Utente utenteC = new Utente();
-        utenteC.setUsername("utenteC");
+        utenteC.setUsername("Freskies");
         utenteC.setNomeCompleto("Valerio Giacchini");
-        utenteC.setEmail("utenteC@utenteC.it");
+        utenteC.setEmail("ProBackFlip@utenteC.it");
         return utenteC;
     }
     @Bean
