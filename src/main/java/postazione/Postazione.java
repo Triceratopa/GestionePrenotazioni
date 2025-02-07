@@ -25,4 +25,9 @@ public class Postazione {
     @JoinColumn(name = "edificio_id")
     private Edificio edificio;
 
+    public Postazione(String descrizione, TipoPostazione tipoPostazione, int numeroMaxPosti) {
+        this.descrizione = descrizione;
+        this.tipoPostazione = tipoPostazione;
+        this.numeroMaxPosti = numeroMaxPosti;
+    }
 }
