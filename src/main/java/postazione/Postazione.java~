@@ -21,8 +21,5 @@ public class Postazione {
     private int numeroMaxPosti;
     @Enumerated(jakarta.persistence.EnumType.STRING)
     private TipoPostazione tipoPostazione;
-    @ManyToOne
-    @JoinColumn(name = "edificio_id")
     private Edificio edificio;
-
 }
